@@ -1,0 +1,49 @@
+@import url(/css/footer.css);
+
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color:  #25292d;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    
+   }
+
+
+   main h1 {
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: none;
+    position: relative;
+    right: -7vh;
+ }
+
+   main p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 40px 0;
+    position: relative;
+    left: 13vh;
+   }
+
+   footer p {
+    font-size: 18px;
+    margin-left: 60px;
+   }
+
+   .divider{
+    height: 40px;    
+   }
+
+   .divider2{
+    height: 50px;
+   }
+
+
+   
+
+
+
