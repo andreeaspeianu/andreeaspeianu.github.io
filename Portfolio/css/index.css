@@ -1,0 +1,52 @@
+:root{
+    --site-color-01: #d72323; 
+}
+
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color:  #25292d;
+    margin-top: 60px;
+    background-image: url(../img/portrait.pic.png);
+    background-size: 90vh, cover;
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+main .main-intro h1 {
+    font-size: 96px;
+    line-height: 106px;
+    color: var(--site-color-01);
+ }
+
+ main p {
+    font-size: 18px;
+    line-height: 25px;
+ }
+
+ main .main-info p {
+    border-left: 3px solid var(--site-color-01);
+    padding-left: 20px;
+    margin: 40px 0;
+ }
+
+ main .main-info p:nth-child(2) {
+    margin-left: 80px;
+ }
+
+ main .main-info {
+    position: relative;
+    left: 25vh;
+    padding-bottom: 4vh;
+ }
+
+ main .main-intro {
+    position: relative;
+    right: 25vh;
+    padding-bottom: 4vh;
+ }
+
+ 
